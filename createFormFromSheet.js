@@ -33,7 +33,7 @@ function createFormFromSheet() {
     respSheet.setName( datos[ 1 ] );
   };
 
-  // Mueve la hoja de respuestas y la forma al folder (con id) cargado eb datos[ 2 ]
+  // Mueve la hoja de respuestas y la forma al folder (con id) cargado en datos[ 2 ]
   var folder = DriveApp.getFolderById( datos[ 2 ] );
   var file = DriveApp.getFileById( respBook.getId() );
   file.moveTo( folder );

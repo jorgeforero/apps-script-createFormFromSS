@@ -13,4 +13,4 @@ Asigna los nombres y mueve los archivos generados al folder dado en la hoja.  Es
 "Necesito que el formulario se cree con el nombre de la casilla 14 3, se vincule a la hoja de calculo nombrandose la pestaña (por la fecha)con la casilla 13 3 y que luego se guarde en la carpeta donde está el google sheet con el nombre de la casilla 15 3.
 Obviamente el codigo más simple que tengo hasta se duplica la creación del documento xD! agradecería ayuda"
 
-La segunda función es una variación de la primera y enlaza la hoja de respuesta a la hoja que ejecuta el script
+La segunda función ( createFormFromSheet2Local ) es una variación de la primera y enlaza la hoja de respuesta a la hoja que ejecuta el script
